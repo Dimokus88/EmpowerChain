@@ -1,6 +1,5 @@
 #!/bin/bash
 # By Dimokus (https://t.me/Dimokus)
-
 if [[ -n $MY_ROOT_PASSWORD ]]
 then
 echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
@@ -26,7 +25,7 @@ WORK_FOLDER=`echo $WORK_FOLDER | sed "s/$WORK_FOLDER/.$WORK_FOLDER/"`
 BINARY_VERSION=v`curl -s "$SNAP_RPC"/abci_info | jq -r .result.response.version`
 fi
 SHIFT=1000
-GIT_FOLDER=~`basename $GITHUB_REPOSITORY | sed "s/.git//"`/chain
+GIT_FOLDER='~`basename $GITHUB_REPOSITORY | sed "s/.git//"`/chain'
 echo $CHAIN
 echo $DENOM
 echo $WORK_FOLDER
