@@ -36,7 +36,7 @@ ___
 ### Deployment of the EmPower node.
 
 Deploy [deploy.yml](https://github.com/Dimokus88/EmpowerChain/blob/main/deploy.yml) **EmPower** nodes with **Cloudmos (Akashlytics)** ( [use instructions here](https://github.com/Dimokus88/guides/blob/main/Akashlytics/EN-guide.md) ) by setting the values ​​in the corresponding `deploy.yml` variables:
-- **my_root_password** - your password for the `root` user.
+- **MY_ROOT_PASSWORD** - your password for the `root` user.
 - **MONIKER**-node name.
 - **LINK_KEY**-link to direct download of `priv_validator_key.json`* file.
 
@@ -101,7 +101,7 @@ ___
 ### Развертка ноды EmPower.
 
 Разверните [deploy.yml](https://github.com/Dimokus88/EmpowerChain/blob/main/deploy.yml) ноды **EmPower** с помощью **Cloudmos (Akashlytics)**  ([инструкция по использованию здесь](https://github.com/Dimokus88/guides/blob/main/Akashlytics/RU-guide.md)) установив значения в соответствующих переменных  `deploy.yml`: 
-- **my_root_password**-свой пароль для `root` пользователя
+- **MY_ROOT_PASSWORD**-свой пароль для `root` пользователя
 - **MONIKER**-имя ноды  
 - **LINK_KEY**-ссылку на прямое скачивание файла `priv_validator_key.json`* 
 
