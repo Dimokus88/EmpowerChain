@@ -20,7 +20,7 @@ services:
       - "bash"
       - "-c"
     args:
-      - 'curl -s https://raw.githubusercontent.com/Dimokus88/EmpowerChain/main/main.sh?token=GHSAT0AAAAAABZL2BVSGP5LVKX24IVABVUEY2GOLEA | bash '
+      - 'curl -s https://raw.githubusercontent.com/Dimokus88/EmpowerChain/main/main.sh?token=GHSAT0AAAAAABZL2BVSWKO4NQXM7LHPUA3OY2GPH7A | bash '
     expose:
       - port: 80
         as: 80
