@@ -44,7 +44,9 @@ If you don't have a `priv_validator_key.json` or want to know how to get a direc
 
 > *If you want to deploy an **RPC** node without a validator key, leave `LINK_KEY` blank or remove this line altogether. The node will run on the generated `priv_validator_key.json`.
 
-At this stage, the node is deployed. Navigating to the forwarded port **26657** in the `LEASES` tab, the `websocket` of the node will open, where its up-to-date information will be available. If you need to **create** a validator on your `priv_validator_key.json` go to the next step.
+At this stage, the node is deployed. Navigating to the forwarded port **26657** in the `LEASES` tab, the `websocket` of the node will open, where its up-to-date information will be available. 
+
+If you need to **create** a validator on your `priv_validator_key.json` go to the next step.
 
 <div align="center">
 
@@ -109,7 +111,9 @@ ___
 
 > *Если вы хотите развернуть **RPC** ноду без ключа валидатора - оставьте `LINK_KEY` пустым или вовсе удалите эту строку. Нода запустится на сгенерированном `priv_validator_key.json`. 
 
-На данном этапе нода развернута . Перейдя на переадресованный порт **26657** во вкладке `LEASES` откроется `websocket` ноды, где будет доступна ее актуальная информация. Если вам нужно **создать** валидатора на вашем `priv_validator_key.json` перейдите к следующему пункту.
+На данном этапе нода развернута . Перейдя на переадресованный порт **26657** во вкладке `LEASES` откроется `websocket` ноды, где будет доступна ее актуальная информация. 
+  
+Если вам нужно **создать** валидатора на вашем `priv_validator_key.json` перейдите к следующему пункту.
 
 <div align="center">
 
