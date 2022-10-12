@@ -52,11 +52,11 @@ sudo make install
 binary=`ls /root/go/bin`
 if [[ -z $binary ]]
 then
-binary=`ls /root/$GIT_FOLDER/build/`
+binary=`ls $GIT_FOLDER/build/`
 fi
 echo $binary
 echo 'export binary='${binary} >> /root/.bashrc
-cp /root/$GIT_FOLDER/build/$binary /usr/bin/$binary
+cp $GIT_FOLDER/build/$binary /usr/bin/$binary
 cp /root/go/bin/$binary /usr/bin/$binary
 $binary version
 #-------------------------------------------------
