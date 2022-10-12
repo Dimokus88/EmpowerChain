@@ -26,7 +26,6 @@ BINARY_VERSION=v`curl -s "$SNAP_RPC"/abci_info | jq -r .result.response.version`
 fi
 SHIFT=1000
 GIT_FOLDER=`basename $GITHUB_REPOSITORY | sed "s/.git//"`/chain
-GIT_FOLDER=`echo /root/$GIT_FOLDER`
 echo $CHAIN
 echo $DENOM
 echo $WORK_FOLDER
