@@ -15,7 +15,7 @@ services:
 #2.Section of variables for node operation"
       - "GITHUB_REPOSITORY=https://github.com/empowerchain/empowerchain.git"
       - "SNAP_RPC=https://empower-testnet.nodejumper.io:443"
-      - "TOKEN="
+      - "TOKEN=" #Token your telegram bot.
     command:
       - "bash"
       - "-c"
